@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="signUp.css">
+        <link rel="stylesheet" type="text/css"href="home.css"> 
+
+        <title>Givantk - Sign Up</title>
+
+    </head>
+    <body>
+            <div id= "navBarDiv" style="margin-left: 0px ; ">
+                    <ul id="navBarList" >
+                        <li style=" font-size: 37px ; padding-right: 10px   ; float: left ; color: #008388; border-right: 3px #232323 solid; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif " class="navBarLi;"  ><a><b> Givantk</b> </a></li>
+                        <li style="float: left  ; margin-left: 20px; " class="navBarLi; "> <a href="home.html"><b>Home</b></a></li>
+                        <li style="float: left ; margin-left: 20px;" class="navBarLi; "><a><b>Contact us</b></a></li>
+                        <li style="float: left ; margin-left: 20px;" class="navBarLi; "><a href="signUp.html"><b>Register</b></a></li>
+            
+                    </ul>
+                </div>
+
+
+
+
+        
+        <form id = "signUpForm">
+            <div style="font-size: 40px;  " >
+                    <div style="font-size: 40px; color:#FFA963 " >
+                <label >Sign Up</label>
+            </div>
+
+            <div >
+                <input type="text" class= "SignUpElements" required placeholder="first name">
+            </div>
+
+            <div >
+                <input type="text" class= "SignUpElements" required placeholder="last name">
+            </div>
+
+            <div >
+                <input type="email" class= "SignUpElements" required placeholder="e-mail" >
+            </div>
+
+            <div >
+                    <input type="date" class= "SignUpElements" required data-placeholder="Date of birth" >
+                </div>
+            
+
+            <div >
+                <input type="password" class= "SignUpElements" required placeholder="password">
+            </div>
+
+            <div >
+            <input type="password" class= "SignUpElements" required placeholder="confirm password">
+            </div>
+            <div >
+                <select id= "country" class= "SignUpElements" required  style="height: 40px; padding: 1px;  ">
+                    <option disabled selected>country</option>
+                    <option>Bahrain</option>
+                    <option>Egypt</option>
+                    <option>Iraq</option>
+                    <option>Lebanon</option>
+                    <option>Jordan</option>
+
+                    <option>Kuwait</option>
+
+                    <option>Oman</option>
+                    <option>Palestine</option>
+                    <option>Qatar</option>
+
+                    <option>Saudi Arabia</option>
+                    <option>Syria</option>
+                    <option>United Arab Emirates</option>
+                    <option>Yemen</option>
+                    
+
+                </select>
+            </div>
+
+            <div >
+                <input type="submit" value="Register" class= "SignUpElements ; submitButton" style="background-color: #FFA963; ">
+            </div>
+        </form>
+    </body>
+</html>
